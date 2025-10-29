@@ -49,18 +49,15 @@ Putting it all together in canonical form:
 
 $$
 \begin{aligned}
-\gamma(0) &= (E, x)
-&&\text{(Stage 0: Soil — initial seed state)} [6pt]
-\gamma(t) &= E(t \mid x) + \varepsilon_x
-&&\text{(Stage 1: Roots — energy evolution given context)} [6pt]
-\gamma'(t) &= \frac{dE_x}{dt}
-&&\text{(Stage 2: Trunk — gradient or signal flow)} [6pt]
-\gamma''(t) &= \frac{d^{2}E_x}{dt^{2}}
-&&\text{(Stage 3: Branches — curvature or feedback response)} [6pt]
-\Delta S &= \int_{\gamma} \omega, ds + \epsilon t + C_x
-&&\text{(Stage 4: Canopy — integrated yield or meaning)}
+\gamma(0) &= (E, x) &&\quad\text{(Stage 0: Soil — initial seed state)} \\[6pt]
+\gamma(t) &= E(t \mid x) + \varepsilon_x &&\quad\text{(Stage 1: Roots — energy evolution given context)} \\[6pt]
+\gamma'(t) &= \frac{dE_x}{dt} &&\quad\text{(Stage 2: Trunk — gradient or signal flow)} \\[6pt]
+\gamma''(t) &= \frac{d^{2}E_x}{dt^{2}} &&\quad\text{(Stage 3: Branches — curvature or feedback response)} \\[6pt]
+\Delta S &= \int_{\gamma}\omega\,ds + \epsilon t + C_x &&\quad\text{(Stage 4: Canopy — integrated yield or meaning)}
 \end{aligned}
 $$
+
+
 
 That $E(t \mid x) + \varepsilon_x$ term is the living root of the process—the “conditional energy manifold” that grounds the rest of the flow. It’s where potential becomes actual, before differentiation turns it into motion.
 
